@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-areas: 'gif gif gif gif'
+    'Yes Yes No No'
+    ;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+#gif {
+    grid-area: gif;
+    width: 30rem
+}
+input{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: pink;
+    border-color:none;
+}
+#yes{
+    grid-area: Yes;
+}
+#no{
+    grid-area: No;
+}
